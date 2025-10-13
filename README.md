@@ -5,7 +5,7 @@
 This project explores a **transformer-based model** for **word-level sign language classification**, with a strong emphasis on **model explainability**. The approach utilizes **saliency maps** to analyze and interpret model decisions, improving transparency in predictions.  
 
 ## 📊 Key Highlights  
-- **📚 Datasets**  
+- ** Datasets**  
 This project uses publicly available sign language datasets:
 
   - **[AUTSL Dataset](https://cvml.ankara.edu.tr/datasets/)**  
@@ -16,41 +16,41 @@ This project uses publicly available sign language datasets:
 
 🔹 If you use this work, please also **cite these datasets** accordingly.  
 
-- **🛠 Feature Extraction**:  
+- ** Feature Extraction**:  
   - Used **pose estimation** and data preprocessing to extract skeletal motion features.  
   - Reduced videos to **30 frames with 258 features per frame** for efficiency.  
 - **📈 Model Performance**:  
   - **AUTSL dataset**: Achieved **86.26% accuracy** using a **2-layer transformer with sinusoidal positional encoding**.  
   - **LSA-64 dataset**: Accuracy ranged between **90-94%** with optimized transformer configurations.  
-- **⚡ Comparisons**:  
+- ** Comparisons**:  
   - Outperformed **LSTM models** in both **accuracy and training speed**.  
-- **🧐 Explainability**:  
+- ** Explainability**:  
   - **Saliency analysis** revealed the model’s focus on **active hand movements** and **mid-frame segments**.  
   - Misclassifications were linked to **overlapping hand trajectories**.  
 
-## 🚀 Technologies Used  
+## Technologies Used  
 - **Deep Learning Frameworks**: PyTorch  
 - **Preprocessing**: MediaPipe for pose detection  
 - **Evaluation**: Loss, Accuracy, confusion matrices, Captum's saliency maps  
 
 ---
 
-## 📊 Data Analysis & Preprocessing  
+## Data Analysis & Preprocessing  
 The following visualizations illustrate **average movement trajectories** in sign language datasets and the **MediaPipe-based preprocessing pipeline** used to extract skeletal motion features.
 
-### **1️⃣ Mediapipe Keypoints**
+### **1. Mediapipe Keypoints**
 <p align="center">
     <img src="images/mediapipe.png">
 </p>
 
-### **2️⃣ Movement Trajectories (GIFs)**
+### **2. Movement Trajectories (GIFs)**
 <p align="center" style="display: flex; justify-content: center; align-items: center; gap: 10px;">
     <img src="images/movements-ezgif.com-video-to-gif-converter.gif" width="40%">
     <img src="images/movements1-ezgif.com-video-to-gif-converter.gif" width="40%">
 </p>
 <p align="center"><b>Figure 1: GIFs showing average movement trajectories for different sign language sequences.</b></p>
 
-### **3️⃣ Average Movement Trajectories in Datasets**
+### **3. Average Movement Trajectories in Datasets**
 <p align="center" style="display: flex; justify-content: center; align-items: center; gap: 10px;">
     <img src="images/movements_autsl.png" width="45%">
     <img src="images/movements_lsa64.png" width="45%">
@@ -61,7 +61,7 @@ The following visualizations illustrate **average movement trajectories** in sig
 
 ## 📸 Experimental Results  
 
-### **4️⃣ Performance vs Hyperparameters**
+### **4. Performance vs Hyperparameters**
 <p align="center" style="display: flex; justify-content: center; align-items: center; gap: 10px;">
     <img src="images/performancevslayers.png" width="30%">
     <img src="images/performancevsnumheads.png" width="30%">
@@ -69,14 +69,14 @@ The following visualizations illustrate **average movement trajectories** in sig
 </p>
 <p align="center"><b>Figure 3: Performance vs Number of Layers, Number of Attention-Heads, and DFF.</b></p>
 
-### **5️⃣ Average Saliency Maps**
+### **5. Average Saliency Maps**
 <p align="center" style="display: flex; justify-content: center; align-items: center; gap: 10px;">
     <img src="images/saliencyautsl.png" width="45%">
     <img src="images/saliencylsa64.png" width="45%">
 </p>
 <p align="center"><b>Figure 4: Average saliency maps for the AUTSL subset and LSA-64 dataset.</b></p>
 
-### **6️⃣ Model Architecture**
+### **5. Model Architecture**
 <p align="center">
     <img src="images/transformerarchitecture.png" width="60%">
 </p>
