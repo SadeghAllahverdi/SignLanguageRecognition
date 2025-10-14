@@ -4,7 +4,7 @@
 ## 📌 Project Overview  
 This project explores a **transformer-based model** for **word-level sign language classification**, with a strong emphasis on **model explainability**. The approach utilizes **saliency maps** to analyze and interpret model decisions, improving transparency in predictions.  
 
-## 📊 Key Highlights  
+## Key Highlights  
 - ** Datasets**  
 This project uses publicly available sign language datasets:
 
@@ -59,7 +59,7 @@ The following visualizations illustrate **average movement trajectories** in sig
 
 ---
 
-## 📸 Experimental Results  
+## Experimental Results  
 
 ### **4. Performance vs Hyperparameters**
 <p align="center" style="display: flex; justify-content: center; align-items: center; gap: 10px;">
@@ -84,7 +84,7 @@ The following visualizations illustrate **average movement trajectories** in sig
 
 ---
 
-## 📥 Download Preprocessed Data  
+## Download Preprocessed Data  
 You can download the landmarks that were detected using MediaPipe here:
 
 ### **🔹 LSA64 Dataset**  
