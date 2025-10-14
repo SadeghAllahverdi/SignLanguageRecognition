@@ -103,4 +103,5 @@ The extracted landmarks are available in **30 fps only**.
 
 ## 📬 Contact  
 For any questions or research collaborations, feel free to reach out:  
-📧 **Email:** Sadegh7644@gmail.com  
+📧 **Email:** sadegh.allahverdi@stud.uni-duisburg-essen.de
+
