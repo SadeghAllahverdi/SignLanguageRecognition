@@ -1,7 +1,7 @@
 # SignLanguage-project  
 # Explainable Transformer Architecture for Word-Level Sign Language Classification  
 
-## 📌 Project Overview  
+## Project Overview  
 This project explores a **transformer-based model** for **word-level sign language classification**, with a strong emphasis on **model explainability**. The approach utilizes **saliency maps** to analyze and interpret model decisions, improving transparency in predictions.  
 
 ## Key Highlights  
@@ -14,7 +14,7 @@ This project uses publicly available sign language datasets:
   - **[LSA-64 Dataset](https://facundoq.github.io/datasets/lsa64/)**  
     - Ronchetti, F., Quiroga, F., Estrebou, C., Lanzarini, L., & Rosete, A. (2016). LSA64: A Dataset for Argentinian Sign Language Recognition. *IEEE Latin America Transactions*.
 
-🔹 If you use this work, please also **cite these datasets** accordingly.  
+ If you use this work, please also **cite these datasets** accordingly.  
 
 - ** Feature Extraction**:  
   - Used **pose estimation** and data preprocessing to extract skeletal motion features.  
@@ -87,21 +87,21 @@ The following visualizations illustrate **average movement trajectories** in sig
 ## Download Preprocessed Data  
 You can download the landmarks that were detected using MediaPipe here:
 
-### **🔹 LSA64 Dataset**  
+### ** LSA64 Dataset**  
 The extracted landmarks are available in **4 versions**: 30, 40, 50, and 60 fps.  
-📥 **[Download extracted Mediapipe landmarks and labels](https://drive.google.com/drive/folders/1AjV780y033Cy9k9PV9Y2RBOndS1sG4Fd?usp=drive_link)**  
-📂 **File path:** `SignLanguageProject/data/landmarks_lsa64`
+ **[Download extracted Mediapipe landmarks and labels](https://drive.google.com/drive/folders/1AjV780y033Cy9k9PV9Y2RBOndS1sG4Fd?usp=drive_link)**  
+ **File path:** `SignLanguageProject/data/landmarks_lsa64`
 
-### **🔹 AUTSL Dataset**  
+### ** AUTSL Dataset**  
 The extracted landmarks are available in **30 fps only**.  
-📥 **[Download extracted Mediapipe landmarks and labels](https://drive.google.com/drive/folders/1vupDY3DaFvmBdt_beXWIMqShPkHrcVeU?usp=drive_link)**  
-📂 **File path:** `SignLanguageProject/data/landmarks_autsl40`
+ **[Download extracted Mediapipe landmarks and labels](https://drive.google.com/drive/folders/1vupDY3DaFvmBdt_beXWIMqShPkHrcVeU?usp=drive_link)**  
+ **File path:** `SignLanguageProject/data/landmarks_autsl40`
 
-📌 **After downloading, please copy the extracted files into the provided file paths.**
+ **After downloading, please copy the extracted files into the provided file paths.**
 
 ---
 
-## 📬 Contact  
+##  Contact  
 For any questions or research collaborations, feel free to reach out:  
 📧 **Email:** sadegh.allahverdi@stud.uni-duisburg-essen.de
 
