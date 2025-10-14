@@ -19,7 +19,7 @@ This project uses publicly available sign language datasets:
 - ** Feature Extraction**:  
   - Used **pose estimation** and data preprocessing to extract skeletal motion features.  
   - Reduced videos to **30 frames with 258 features per frame** for efficiency.  
-- **📈 Model Performance**:  
+- ** Model Performance**:  
   - **AUTSL dataset**: Achieved **86.26% accuracy** using a **2-layer transformer with sinusoidal positional encoding**.  
   - **LSA-64 dataset**: Accuracy ranged between **90-94%** with optimized transformer configurations.  
 - ** Comparisons**:  
