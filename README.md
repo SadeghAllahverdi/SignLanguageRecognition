@@ -83,24 +83,6 @@ The following visualizations illustrate **average movement trajectories** in sig
 <p align="center"><b>Figure 5: Transformer-based model architecture for sign language classification.</b></p>
 
 ---
-
-### Download Preprocessed Data  
-You can download the landmarks that were detected using MediaPipe here:
-
-##### ** LSA64 Dataset**  
-The extracted landmarks are available in **4 versions**: 30, 40, 50, and 60 fps.  
- **[Download extracted Mediapipe landmarks and labels](https://drive.google.com/drive/folders/1AjV780y033Cy9k9PV9Y2RBOndS1sG4Fd?usp=drive_link)**  
- **File path:** `SignLanguageProject/data/landmarks_lsa64`
-
-#### ** AUTSL Dataset**  
-The extracted landmarks are available in **30 fps only**.  
- **[Download extracted Mediapipe landmarks and labels](https://drive.google.com/drive/folders/1vupDY3DaFvmBdt_beXWIMqShPkHrcVeU?usp=drive_link)**  
- **File path:** `SignLanguageProject/data/landmarks_autsl40`
-
- **After downloading, please copy the extracted files into the provided file paths.**
-
----
-
 ###  Contact  
 For any questions or research collaborations, feel free to reach out:  
 📧 **Email:** sadegh.allahverdi@stud.uni-duisburg-essen.de
