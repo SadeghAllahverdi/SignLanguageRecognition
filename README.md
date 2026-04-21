@@ -1,10 +1,10 @@
 # SignLanguage-project  
-# Explainable Transformer Architecture for Word-Level Sign Language Classification  
+## Explainable Transformer Architecture for Word-Level Sign Language Classification  
 
-## Project Overview  
+### Project Overview  
 This project explores a **transformer-based model** for **word-level sign language classification**, with a strong emphasis on **model explainability**. The approach utilizes **saliency maps** to analyze and interpret model decisions, improving transparency in predictions.  
 
-## Key Highlights  
+### Key Highlights  
 - ** Datasets**  
 This project uses publicly available sign language datasets:
 
@@ -35,10 +35,10 @@ This project uses publicly available sign language datasets:
 
 ---
 
-## Data Analysis & Preprocessing  
+### Data Analysis & Preprocessing  
 The following visualizations illustrate **average movement trajectories** in sign language datasets and the **MediaPipe-based preprocessing pipeline** used to extract skeletal motion features.
 
-### **1. Mediapipe Keypoints**
+#### **1. Mediapipe Keypoints**
 <p align="center">
     <img src="images/mediapipe.png">
 </p>
@@ -61,7 +61,7 @@ The following visualizations illustrate **average movement trajectories** in sig
 
 ## Experimental Results  
 
-### **4. Performance vs Hyperparameters**
+#### **4. Performance vs Hyperparameters**
 <p align="center" style="display: flex; justify-content: center; align-items: center; gap: 10px;">
     <img src="images/performancevslayers.png" width="30%">
     <img src="images/performancevsnumheads.png" width="30%">
@@ -69,14 +69,14 @@ The following visualizations illustrate **average movement trajectories** in sig
 </p>
 <p align="center"><b>Figure 3: Performance vs Number of Layers, Number of Attention-Heads, and DFF.</b></p>
 
-### **5. Average Saliency Maps**
+#### **5. Average Saliency Maps**
 <p align="center" style="display: flex; justify-content: center; align-items: center; gap: 10px;">
     <img src="images/saliencyautsl.png" width="45%">
     <img src="images/saliencylsa64.png" width="45%">
 </p>
 <p align="center"><b>Figure 4: Average saliency maps for the AUTSL subset and LSA-64 dataset.</b></p>
 
-### **5. Model Architecture**
+#### **5. Model Architecture**
 <p align="center">
     <img src="images/transformerarchitecture.png" width="60%">
 </p>
@@ -84,15 +84,15 @@ The following visualizations illustrate **average movement trajectories** in sig
 
 ---
 
-## Download Preprocessed Data  
+### Download Preprocessed Data  
 You can download the landmarks that were detected using MediaPipe here:
 
-### ** LSA64 Dataset**  
+##### ** LSA64 Dataset**  
 The extracted landmarks are available in **4 versions**: 30, 40, 50, and 60 fps.  
  **[Download extracted Mediapipe landmarks and labels](https://drive.google.com/drive/folders/1AjV780y033Cy9k9PV9Y2RBOndS1sG4Fd?usp=drive_link)**  
  **File path:** `SignLanguageProject/data/landmarks_lsa64`
 
-### ** AUTSL Dataset**  
+#### ** AUTSL Dataset**  
 The extracted landmarks are available in **30 fps only**.  
  **[Download extracted Mediapipe landmarks and labels](https://drive.google.com/drive/folders/1vupDY3DaFvmBdt_beXWIMqShPkHrcVeU?usp=drive_link)**  
  **File path:** `SignLanguageProject/data/landmarks_autsl40`
@@ -101,7 +101,7 @@ The extracted landmarks are available in **30 fps only**.
 
 ---
 
-##  Contact  
+###  Contact  
 For any questions or research collaborations, feel free to reach out:  
 📧 **Email:** sadegh.allahverdi@stud.uni-duisburg-essen.de
 
